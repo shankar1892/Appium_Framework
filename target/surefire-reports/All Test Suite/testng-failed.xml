@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="/Users/shankarsk/IdeaProjects/AppiumFramework(failed)">
+    <classes>
+      <class name="Practise.ApiDemo">
+        <methods>
+          <include name="apidemo" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Practise.ApiDemo -->
+    </classes>
+  </test> <!-- /Users/shankarsk/IdeaProjects/AppiumFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
